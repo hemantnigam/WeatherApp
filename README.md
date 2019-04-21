@@ -1,3 +1,5 @@
 # WeatherApp
 
-Get current weather details
+Get current location weather details
+
+App built using Vanilla javascript.
