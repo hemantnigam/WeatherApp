@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2f96a3), to(#303e8f));
+  background: linear-gradient(#2f96a3, #303e8f);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #f3f0f0;
+  font-family: 'Assistant', sans-serif;
+}
+
+.location_Icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.temperature_description {
+  height: 30vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+}
+
+.temperature_description .temperature {
+  font-size: 35px;
+}
+/*# sourceMappingURL=style.css.map */
